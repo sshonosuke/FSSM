@@ -1,17 +1,10 @@
 # FSSM: State-Space Modeling of Shape-constrained Functional Time Series
 
-This repository provides the R implementation for the simulation studies proposed in the following paper. The full manuscript is included in this repository as a PDF file (`State-Space Modeling of Shape-constrained Functional Time Series.pdf`).
+This repository provides the R implementation for the simulation studies proposed in the following paper. 
 
-> **State-Space Modeling of Shape-constrained Functional Time Series** > Daichi Hiraki, Yasuyuki Hamura, Kaoru Irie, and Shonosuke Sugasawa (2024).  
-> [arXiv:2404.07586](https://arxiv.org/abs/2404.07586)
-
----
-
-## Overview
+Hiraki, D., Hamura, Y., Irie, K. and Sugasawa, S. (2024). State-Space Modeling of Shape-constrained Functional Time Series. [arXiv:2404.07586](https://arxiv.org/abs/2404.07586)
 
 This repository contains R scripts to implement the functional state-space model (FSSM) under monotonicity and convexity constraints. It is designed to replicate the one-shot simulation experiments ($K=4, 9$) and evaluate Gini coefficients and parameter estimations against various benchmarking models.
-
----
 
 ## File Structure
 
@@ -25,5 +18,3 @@ This repository contains R scripts to implement the functional state-space model
 
 ### Execution & Replication Script
 - `main_sim_oneshot.R`: Executes the single-run simulation study to compare Gini coefficients and parameter estimations across all models for $K=4$ and $K=9$.
-
----
